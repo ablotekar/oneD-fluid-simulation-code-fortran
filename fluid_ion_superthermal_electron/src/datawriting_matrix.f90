@@ -1,0 +1,40 @@
+      SUBROUTINE datawriting_matrix
+      USE global
+      IMPLICIT NONE 
+
+      INTEGER :: IC     
+      character*25 FORMAT
+      character*25 FILENAME
+      character*45 :: FORMAT1
+
+      WRITE(FORMAT1,'(A1,I20,A6)')'(', NXP4,"F10.5)"
+      FORMAT1=adjustl(FORMAT1)
+
+      FORMAT ='(A11,I10.10,A4)'
+      
+      WRITE(FILENAME,FORMAT)"./data/PHM_",J,".dat"
+
+      OPEN(UNIT=2, FILE= FILENAME, ACTION="WRITE", STATUS="REPLACE")
+      DO 23 IC=1,TIMAT
+         WRITE(2, FORMAT1) (PHM(IC, CJ), CJ=1,NXP4)
+   23 CONTINUE
+
+      WRITE(FILENAME,FORMAT)"./data/VXM_",J,".dat"
+      OPEN(UNIT=3, FILE= FILENAME, ACTION="WRITE", STATUS="REPLACE")
+      DO 233 IC=1,TIMAT
+         WRITE(3, FORMAT1) (VXM(IC, CJ), CJ=1,NXP4)
+  233 CONTINUE
+
+      WRITE(FILENAME,FORMAT)"./data/NIM_",J,".dat"
+      OPEN(UNIT=4, FILE= FILENAME, ACTION="WRITE", STATUS="REPLACE")
+      DO 243 IC=1,TIMAT
+         WRITE(4, FORMAT1) (NIM(IC, CJ), CJ=1,NXP4)
+  243 CONTINUE
+
+!      WRITE(FILENAME,FORMAT)"./data/NEM_",J,".dat"
+!      OPEN(UNIT=5, FILE= FILENAME, ACTION="WRITE", STATUS="REPLACE")
+!      DO 253 IC=1,TIMAT
+!         WRITE(5, FORMAT1) (NEM(IC, CJ), CJ=1,NXP4)
+!  253 CONTINUE
+     
+      END SUBROUTINE datawriting_matrix

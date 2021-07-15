@@ -1,0 +1,39 @@
+LX     = 5000        ! System length
+DX     = 0.05        ! Space grid size
+DT     = 0.0001      ! Time grid size
+NI0    = 1            ! Equilibrium ION density
+NCE0   = 0.4D0        ! Equilibrium COLD ELECTRON density
+TI     = 0.001        ! Temprature of ion 
+TCE    = 0.01        ! Temprature of cold electron 
+ThE    = 1            ! Temprature of hot electron
+MI     = 1           ! Mass of ion 
+ME     = 5.446623093681918D-04          ! Mass of electron 
+GYM    = 3            ! Adiabatic constants
+ZI     = 1            ! Charge on ion 
+ZE     = -1           ! Charge on electron 
+DN     = -0.5          ! Amplitude of density perturbation
+LO     = 200          ! With of perturbation 
+DNV    = -0.5         ! Amplitude of velocity perturbation
+LOV    = 200           ! width of Velocity perturbation 
+TIDATA = 100         ! Time interval of data saveing
+NTIME  = 100000      ! Time of simulation
+SI     = 0            ! Sationary Ion yes(1) no(0)
+SFFTM  = 0            ! (S)ave (FFT) (M)atrix Yes (1) No (0)
+FFTS   = 0            ! (FFT) (S)tart (S)aving time step 
+FFTMD  = 1         ! (FFT) (M)atrix (D)ymention
+FFTRS  = 1           ! (FFT) (R)e(S)olution 
+
+-------------------------------------------------------------------
+-                   * 1D FLUID CODE * veresion (v01)
+-------------------------------------------------------------------
+- ## ONLY EDIT VALUES, " DO NOT EDIT TEXT "                  
+-
+- Devoloped by (1) Ajay Lotekar
+- 
+-
+-
+-
+-
+- (c) Copyright 2018, Indian Institute of Geomanetism, Navi Mumbai 
+-------------------------------------------------------------------
+-------------------------------------------------------------------      

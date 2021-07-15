@@ -11,6 +11,14 @@ following research article
 
 The code is written for the plasma system consist of the fluid ion and 
 superthermal electron. The ions are governed by fluid equation and 
-electron followes the kappa velocity distribution. 
+electron followes the kappa/maxwellian/Cairn velocity distribution. 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+User can choose plasma model from followeing list
+
+1. Fluid ions - Suprthermal electrons
+2. Fluid ions - thermal (Maxwellian) electron 
+3. Fluid ions - non-thermal (Cairn's) electron 
+
+To choose the model user need to change the associate flag in **./src/input.f90** 
+file. 
+

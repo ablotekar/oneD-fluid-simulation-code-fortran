@@ -12,3 +12,5 @@ following research article
 The code is written for the plasma system consist of the fluid ion and 
 superthermal electron. The ions are governed by fluid equation and 
 electron followes the kappa velocity distribution. 
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">

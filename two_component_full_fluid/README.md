@@ -8,19 +8,21 @@ by the fluid equation.
 
 To comile code use following command. Before compile chage the compiler name
 in **makefile**.
-''
-make
-''
+
+.. code-block:: bash
+        make
+
 or 
-''
-make -f makefile
-''
+
+.. code-block:: bash
+        make -f makefile
+
 
 
 The compile code can be directly run by command 
-''
-./RUN
-''
+.. code-block:: bash
+        ./RUN
+
 
 or can be run in the background. To run code in background use follwing command
 ''

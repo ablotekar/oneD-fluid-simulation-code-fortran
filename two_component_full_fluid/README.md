@@ -32,7 +32,7 @@ important to kill the code. The process id also printed in **process_ID.log** fi
 stamp.
 
 To kill running code 
-''
+'''
 kill (process id)
-''
+'''
 

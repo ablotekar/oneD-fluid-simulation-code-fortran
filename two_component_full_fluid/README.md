@@ -25,9 +25,9 @@ The compile code can be directly run by command
 
 
 or can be run in the background. To run code in background use follwing command
-''
+```
 bash Job_submit_on_pc
-''
+```
 
 as job succesfully run in background scritp will display process id. The process id is 
 important to kill the code. The process id also printed in **process_ID.log** file with time 

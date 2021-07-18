@@ -9,8 +9,9 @@ by the fluid equation.
 To comile code use following command. Before compile chage the compiler name
 in **makefile**.
 
-.. code-block:: bash
-        make
+<pre><code>
+make
+</code></pre>
 
 or 
 

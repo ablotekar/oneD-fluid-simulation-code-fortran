@@ -15,7 +15,7 @@ DN     = -0.5          ! Amplitude of density perturbation
 LO     = 200          ! With of perturbation 
 DNV    = -0.5         ! Amplitude of velocity perturbation
 LOV    = 200           ! width of Velocity perturbation 
-TIDATA = 100         ! Time interval of data saveing
+TIDATA = 10         ! Time interval of data saveing
 NTIME  = 100000      ! Time of simulation
 SI     = 0            ! Sationary Ion yes(1) no(0)
 SFFTM  = 0            ! (S)ave (FFT) (M)atrix Yes (1) No (0)
@@ -34,6 +34,5 @@ FFTRS  = 1           ! (FFT) (R)e(S)olution
 -
 -
 -
-- (c) Copyright 2018, Indian Institute of Geomanetism, Navi Mumbai 
 -------------------------------------------------------------------
 -------------------------------------------------------------------      

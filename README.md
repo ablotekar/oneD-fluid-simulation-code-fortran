@@ -1,9 +1,10 @@
 # 1D fluid simulation code (fortran version)
 
+The 1D fluid simulation code which can be used to study plasma waves in 
+unmagnetized plasma system. The code is written in fortran and the python is
+used for data visualization.
 
-It is fortran version of the 1D fluid simulation codes, which I have develop
-and used during my PhD. This package has four 
-codes which are used in the study of different coherent electric field 
+This package has four codes which are used in the study of different coherent electric field 
 structures in the different plasma environment. 
 
 The list of codes are as follows 
@@ -26,4 +27,8 @@ The list of codes are as follows
   
 More details about the code can be found the **"README.md"** file of each
 code.
+
+## Credits
       
+This software was develop by Ajay Lotekar [ablotekar@gmail.com](ablotekar@gmail.com) 
+during PhD. 

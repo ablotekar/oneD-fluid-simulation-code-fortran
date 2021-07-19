@@ -25,7 +25,7 @@ The list of codes are as follows
     two component full fluid plasma system.
     
   
-More details about the code can be found the **"README.md"** file of each
+More details about the code can be found in the **"README.md"** file of each
 code.
 
 ## Credits

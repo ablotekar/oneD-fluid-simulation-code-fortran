@@ -33,13 +33,23 @@
 
 **/RUN
 
+# Log files
+*.Log
+
+# process id file
+*.pid
+
 # data files
 *.dat
 
 # Folder
-
+data/
 
 # vs code files
 *.code-workspace
+
+# other
+*.xml
+*.iml
 
 

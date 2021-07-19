@@ -4,6 +4,8 @@ The 1D fluid simulation code which can be used to study plasma waves in
 unmagnetized plasma system. The code is written in fortran and the python is
 used for data visualization.
 
+It is distributed under the open-source MIT license.
+
 This package has four codes which are used in the study of different coherent electric field 
 structures in the different plasma environment. 
 

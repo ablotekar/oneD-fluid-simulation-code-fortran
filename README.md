@@ -30,5 +30,5 @@ code.
 
 ## Credits
       
-This software was develop by Ajay Lotekar [ablotekar@gmail.com](ablotekar@gmail.com) 
+This software was develop by Ajay Lotekar ([ablotekar@gmail.com](ablotekar@gmail.com))
 during PhD. 

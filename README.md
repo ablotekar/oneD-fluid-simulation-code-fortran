@@ -1,9 +1,10 @@
 # 1D fluid simulation code (fortran version)
 
 
-It is fortran version of the 1D fluid simulation. This package has four 
+It is fortran version of the 1D fluid simulation codes I have develop
+and used during my PhD. This package has four 
 codes which are used in the study of different coherent electric field 
-structure in the different plasma environment. 
+structures in the different plasma environment. 
 
 The list of codes are as follows 
 * **Fluid_ion_superthermal_electron**
@@ -11,7 +12,7 @@ The list of codes are as follows
     thermal, non-thermal and superthermal plasma system.
       
 * **supersoliton**
-     - It is ued to study the evolution of the supersolitary wave 
+     - It is used to study the evolution of the supersolitary wave 
     in the superthermal plasma system
        
 * **electron_acoustic_double_layer**

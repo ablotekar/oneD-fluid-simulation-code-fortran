@@ -1,14 +1,14 @@
 #--------------------------------------------------------------------------
 # This is make file of 1D fluid code 3-component plasma model
-# 
+#
 # Developer : (1) Ajay Lotekar
-#             
+#
 #
 # Date: March 20, 2017 (v0.4a)
-#                   
+#
 #--------------------------------------------------------------------------
 
-# Make file for the all compiler 
+# Make file for the all compiler
 CAMP = gfortran    # Change compiler name acourdingly
 
 # Making executable file "RUN"
@@ -45,7 +45,7 @@ OBJS  = global.o \
 	out_dir.o \
 
 MOD = global.mod
- 
+
 $(PROGRAM): $(OBJS)
 	@$(CAMP)  $(LINKR) $(PROGRAM) $(OBJS)
 	@mv $(OBJS) $(BILDIR)
@@ -53,7 +53,7 @@ $(PROGRAM): $(OBJS)
 	@echo "Now you can execute file < $(PROGRAM) > "
 
 global.mod:global.o $(SRCDIR)global.f90
-	@$(CAMP) $(FLAGS)  $(SRCDIR)global.f90 
+	@$(CAMP) $(FLAGS)  $(SRCDIR)global.f90
 
 global.o: $(SRCDIR)global.f90
 	@$(CAMP) $(FLAGS)  $(SRCDIR)global.f90
@@ -74,16 +74,16 @@ main_matrix_kappa.o: global.mod $(SRCDIR)main_matrix_kappa.f90
 	@$(CAMP) $(FLAGS)  $(SRCDIR)main_matrix_kappa.f90
 
 main_matrix_mb.o: global.mod $(SRCDIR)main_matrix_mb.f90
-	@$(CAMP) $(FLAGS)  $(SRCDIR)main_matrix_mb.f90	
+	@$(CAMP) $(FLAGS)  $(SRCDIR)main_matrix_mb.f90
 
 main_matrix_cairn.o: global.mod $(SRCDIR)main_matrix_cairn.f90
-	@$(CAMP) $(FLAGS)  $(SRCDIR)main_matrix_cairn.f90	
+	@$(CAMP) $(FLAGS)  $(SRCDIR)main_matrix_cairn.f90
 
 perturbation_gaussian.o: global.mod $(SRCDIR)perturbation_gaussian.f90
 	@$(CAMP) $(FLAGS)  $(SRCDIR)perturbation_gaussian.f90
 
 perturbation_gaussian_p2.o: global.mod $(SRCDIR)perturbation_gaussian_p2.f90
-	@$(CAMP) $(FLAGS)  $(SRCDIR)perturbation_gaussian_p2.f90	
+	@$(CAMP) $(FLAGS)  $(SRCDIR)perturbation_gaussian_p2.f90
 
 perturbation_step.o: global.mod $(SRCDIR)perturbation_step.f90
 	@$(CAMP) $(FLAGS)  $(SRCDIR)perturbation_step.f90
@@ -134,4 +134,4 @@ FD4n.o: global.mod $(SRCDIR)FD4n.f90
 
 .PHONY : clean
 clean:
-	rm -f *.o *.mod 
+	rm -f *.o *.mod

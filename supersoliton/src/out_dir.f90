@@ -10,8 +10,9 @@
       WRITE (HR, "(I2.2)") DATE_TIME(5) 
       WRITE (MIN, "(I2.2)") DATE_TIME(6) 
       WRITE (SCN, "(I2.2)") DATE_TIME(7)
-      FOLDERN = 'DATA_'//TRIM(YR)//'_'//TRIM(MTH)//'_'//TRIM(DAY)//'_'//TRIM(HR) &
-      //'_'//TRIM(MIN)//'_'//TRIM(SCN)  
+!      FOLDERN = 'DATA_'//TRIM(YR)//'_'//TRIM(MTH)//'_'//TRIM(DAY)//'_'//TRIM(HR) &
+!      //'_'//TRIM(MIN)//'_'//TRIM(SCN)
+       FOLDERN = 'data'
 !
       CALL SYSTEM('mkdir -p '//FOLDERN)
       END SUBROUTINE out_dir

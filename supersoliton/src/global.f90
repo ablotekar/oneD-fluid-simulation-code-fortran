@@ -15,7 +15,7 @@
       REAL*8    :: DX, DT, LX, PHE, BH, XC, DN, EX0, T1, T2, LO, TOL, W
       REAL*8    :: NEH0, NEC0, NI0, DNEH, DNEC, DNI, L0EH, L0EC, L0I
       REAL*8    :: N0EH, N0EC, N0I, L0V, DNV, PC, BC, TU, F, VX0
-      CHARACTER*24 :: FOLDERN
+      CHARACTER*4 :: FOLDERN ! 4 change with the number of charectors in folder name
 
    
       END MODULE global

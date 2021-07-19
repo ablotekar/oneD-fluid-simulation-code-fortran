@@ -5,11 +5,11 @@
       INTEGER  :: date_time(8)
       CHARACTER*40 :: FNAME
       CHARACTER*30  :: VAL(3), YR, MTH, DAY, HR, MIN, SCN
-      character*41 FILENAME
+      character*44 FILENAME
       character*25 format
 
 
-      format ='(A2,A24,A15)'
+      format ='(A2,A4,A15)'
       
       write(FILENAME,format)"./",FOLDERN,"/input_data.dat"
 

@@ -1,4 +1,4 @@
-# 1D fluid simulation code (fortran version)
+# 1D fluid simulation code 
 
 The 1D fluid simulation code which can be used to study plasma waves in 
 unmagnetized plasma system. The code is written in fortran and the python is

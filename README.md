@@ -22,7 +22,8 @@ The list of codes are as follows
 * **two_component_full_fluid**
     - This code can be used to study the electrostatic solitary wave (ESW) in 
     two component full fluid plasma system.
-      
-The more details about the code can be found the **"README.md"** file of each
+    
+  
+More details about the code can be found the **"README.md"** file of each
 code.
       

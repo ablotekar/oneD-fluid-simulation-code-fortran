@@ -11,7 +11,7 @@
       WRITE(FORMAT1,'(A1,I20,A6)')'(', NXP4,"F10.5)"
       FORMAT1=adjustl(FORMAT1)
 
-      FORMAT ='(A2,A24,A5,I10.10,A4)'
+      FORMAT ='(A2,A4,A5,I10.10,A4)'
       
       WRITE(FILENAME,FORMAT)"./",FOLDERN,"/PHM_",J,".dat"
 

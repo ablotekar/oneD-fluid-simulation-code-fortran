@@ -4,7 +4,7 @@
       INTEGER :: IC     
       character*25 FORMAT
       character*45 FILENAME
-      FORMAT ='(A2,A24,A5,I10.10,A4)'
+      FORMAT ='(A2,A4,A5,I10.10,A4)'
       
       WRITE(FILENAME,FORMAT)"./",FOLDERN,"/DAT_",J,".dat"
 

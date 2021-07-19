@@ -6,7 +6,7 @@
 !-------------------------------------------------------------------              
 !Input parameters                                                                 
 !-------------------------------------------------------------------              
-      LX      = 20000        ! System Length
+      LX      = 2000        ! System Length
 
  !--------- KAPPA INDEX ---------------------------------                                                  
       K       =  2          ! Kappa Index
@@ -25,7 +25,7 @@
       L0I     = 2D0         ! Perturbation widht for ion                          
       DNV     = 0D0         ! Amplitude of perturbation in ion velocity           
       L0V     = 50D0        ! Perturbation widht for ion velocity                 
-      TIDATA  = 100          ! time interval of data save                            
+      TIDATA  = 10          ! time interval of data save
       NTIME   = 500000          ! Time of simulation                                        
       TOL     = 1D-10       ! Number of itration in poisson solver                 
       W       = 0.7D0       ! SOR PARAMETER                                       

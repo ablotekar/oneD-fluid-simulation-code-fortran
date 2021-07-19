@@ -2,7 +2,6 @@
 # Make file for the 1D full fluid code (4C)
 # Date January 6, 2018
 # Mod. Date & version : Jan. 6, 2018 (v0.0)
-# Copyright 2018, Indian Institute of Geomagnetism
 #
 # Devoloper : Ajay Lotekar
 #
